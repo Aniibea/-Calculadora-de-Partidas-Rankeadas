@@ -1,5 +1,6 @@
-let vitorias = 115;
-let derrotas = 118; 
+let derrotas = 130;
+let vitorias = 223; 
+const resultado = calcularNivelRanqueadas(vitorias, derrotas);
 
 function calcularNivelRanqueadas(vitorias, derrotas) {
     let saldoVitorias = vitorias - derrotas;
@@ -22,3 +23,4 @@ function calcularNivelRanqueadas(vitorias, derrotas) {
 }
     return `O Herói tem um saldo de ${saldoVitorias} está no nível de ${nivel}`;
 }
+console.log(resultado);
